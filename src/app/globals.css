@@ -43,21 +43,18 @@
     font-family: 'Cenatyc', var(--font-mono), sans-serif;
   }
 
-  /* --- MODIFICATION ICI --- */
 
-  /* Background Section 1 : Animation PS3 Waves */
 .bg-section-hero {
     background: black;
     position: relative;
     overflow: hidden;
   }
 
-  /* Filtre pour que la vidéo ne soit pas trop agressive et garde le look PS3 */
   .video-overlay {
     position: absolute;
     inset: 0;
     background: radial-gradient(circle, transparent 20%, rgba(0,0,0,0.4) 100%);
-    backdrop-filter: blur(10px); /* Ajuste le blur selon tes goûts */
+    backdrop-filter: blur(10px); 
     z-index: 1;
   }
 
@@ -74,14 +71,11 @@
     z-index: 0;
   }
 
-  /* Background Section 2 : Sombre et fixe (Dashboard) */
   .bg-section-dashboard {
     background: linear-gradient(to bottom, #0a0a0a, #000000);
-    /* Optionnel: un léger effet de grain pour le look Sony */
     background-image: radial-gradient(circle at center, rgba(255,255,255,0.02) 0%, transparent 100%);
   }
 
-  /* --- FIN MODIFICATION --- */
 
   section {
     height: 100vh;
@@ -91,7 +85,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    overflow: hidden; /* Evite les débordements de gradients */
+    overflow: hidden; 
   }
 }
 
