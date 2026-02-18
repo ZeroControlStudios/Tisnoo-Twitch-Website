@@ -1,7 +1,6 @@
 import { NextResponse } from 'next/server';
 
 export async function GET() {
-// L'ID extrait du code source de Tisnoo
   const CHANNEL_ID = "UCCg7Jjht6rYK3_uUhE_Emgg";
   const RSS_URL = `https://www.youtube.com/feeds/videos.xml?channel_id=${CHANNEL_ID}`;
 
@@ -9,7 +8,6 @@ export async function GET() {
     const response = await fetch(RSS_URL, { next: { revalidate: 3600 } }); // Cache d'une heure
     const xml = await response.text();
 
-    // On extrait l'ID de la première vidéo avec un petit Regex
     const videoIdMatch = xml.match(/<yt:videoId>([^<]+)<\/yt:videoId>/);
     const lastVideoId = videoIdMatch ? videoIdMatch[1] : null;
 
