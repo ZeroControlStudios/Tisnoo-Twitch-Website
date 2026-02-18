@@ -4,8 +4,8 @@ import { JetBrains_Mono } from "next/font/google";
 const mono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono" });
 
 export const metadata = {
-  title: "TISNOO", // <--- Le nom qui apparaîtra sur l'onglet
-  description: "ZeroControlStudios Creation", // Une petite description pour le SEO
+  title: "TISNOO",
+  description: "ZeroControlStudios Creation",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
