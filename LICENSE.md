@@ -2,7 +2,7 @@
 
 ## COPYRIGHT / LICENCE DE PROPRIÉTÉ INTELLECTUELLE
 
-**Projet :** Portfolio de Mr. Tisnoo  
+**Projet :** Site Web Particulier de Mr. Tisnoo  
 **Développeur :** ZeroControlStudios  
 **Propriétaire :** Mr. Tisnoo  
 
@@ -18,7 +18,7 @@
 
 ## INTELLECTUAL PROPERTY LICENSE / COPYRIGHT NOTICE
 
-**Project:** Mr. Tisnoo Portfolio  
+**Project:** Mr. Tisnoo Personal Website  
 **Developer:** ZeroControlStudios  
 **Owner:** Mr. Tisnoo  
 
